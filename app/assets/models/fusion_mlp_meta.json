@@ -1,0 +1,29 @@
+{
+  "face_classes": [
+    "Anger",
+    "Contempt",
+    "Disgust",
+    "Fear",
+    "Happy",
+    "Neutral",
+    "Sad",
+    "Surprise"
+  ],
+  "posture_classes": [
+    "Confident",
+    "Neutral",
+    "Low"
+  ],
+  "fused_labels": [
+    "Calm & Confident",
+    "Mildly Negative",
+    "Negative & Disengaged",
+    "Negative but Assertive (mixed signal)",
+    "Neutral",
+    "Neutral but Withdrawn",
+    "Positive & Engaged",
+    "Positive but Reserved (smiling, closed body language)",
+    "Positive, Moderate Engagement"
+  ],
+  "input_order": "concat(face_probs, posture_probs)"
+}
