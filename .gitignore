@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+
+# Raw dataset (large, publicly downloadable — see README for source)
+face_emotion/data_raw_yolo/
+
+# Personal working notes, not part of the submission
+PROJECT_WALKTHROUGH.pdf
+
+# Flutter/Android build & IDE caches not already covered by nested .gitignore files
+app/android/.kotlin/
+app/android/build/
+app/android/app/build/
+app/.idea/
