@@ -1,0 +1,62 @@
+{
+  "feature_cols": [
+    "eye_shoulder_y_ratio",
+    "shoulder_y_diff",
+    "wrist_distance_x",
+    "wrist_shoulder_ratio",
+    "nose_eye_center_offset_x",
+    "shoulder_span",
+    "hip_shoulder_y_diff",
+    "body_lean_x",
+    "shoulder_center_x",
+    "hip_center_x",
+    "spine_angle",
+    "eye_distance",
+    "head_tilt_angle",
+    "eye_distance_ratio",
+    "shoulder_slope",
+    "head_direction_Center",
+    "head_direction_Looking Left",
+    "head_direction_Looking Right",
+    "head_direction_Looking Straight",
+    "arm_position_Closed Arms",
+    "arm_position_Open Arms",
+    "arm_position_Partially Open",
+    "posture_Slouched",
+    "posture_Stiff",
+    "posture_Upright"
+  ],
+  "confidence_classes": [
+    "Confident",
+    "Low",
+    "Neutral"
+  ],
+  "head_direction_classes": [
+    "Center",
+    "Looking Left",
+    "Looking Right",
+    "Looking Straight"
+  ],
+  "posture_classes": [
+    "Slouched",
+    "Stiff",
+    "Upright"
+  ],
+  "numeric_cols": [
+    "eye_shoulder_y_ratio",
+    "shoulder_y_diff",
+    "wrist_distance_x",
+    "wrist_shoulder_ratio",
+    "nose_eye_center_offset_x",
+    "shoulder_span",
+    "hip_shoulder_y_diff",
+    "body_lean_x",
+    "shoulder_center_x",
+    "hip_center_x",
+    "spine_angle",
+    "eye_distance",
+    "head_tilt_angle",
+    "eye_distance_ratio",
+    "shoulder_slope"
+  ]
+}
