@@ -1,0 +1,8 @@
+train=17101 val=5406 test=2755
+class counts: {'Anger': 2339, 'Contempt': 1996, 'Disgust': 2242, 'Fear': 2021, 'Happy': 2154, 'Neutral': 1616, 'Sad': 1914, 'Surprise': 2819}
+class weights: {'Anger': 0.91, 'Contempt': 1.07, 'Disgust': 0.95, 'Fear': 1.06, 'Happy': 0.99, 'Neutral': 1.32, 'Sad': 1.12, 'Surprise': 0.76}
+epoch 01  train_loss=2.0731  val_acc=0.2022  val_macro_f1=0.1674  (733s)
+
+
+
+Architecture: 4 conv blocks (32→64→128→256 channels), each block is two 3×3 convs + BatchNorm + ReLU, then a 2×2 max-pool — so spatial size goes 96→48→24→12, then an adaptive average pool collapses the last 256-channel map to a single vector, followed by dropout (0.4) and one linear layer to the 8 classes. Simple, fairly standard small-CNN design.
